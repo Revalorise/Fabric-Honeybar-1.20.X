@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "honeybar",
+	"version": "${version}",
+	"name": "honeybar",
+	"description": "Just a simple mod.",
+	"authors": [
+		"Revalorise"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/honeybar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.revalorise.honeybar.Honeybar"
+		],
+		"client": [
+			"net.revalorise.honeybar.HoneybarClient"
+		],
+		"fabric-datagen": [
+			"net.revalorise.honeybar.HoneybarDataGenerator"
+		]
+	},
+	"mixins": [
+		"honeybar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
