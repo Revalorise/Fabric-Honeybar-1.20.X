@@ -1,4 +1,6 @@
 {
   "item.honeybar.ruby": "Ruby",
-  "item.honeybar.raw_ruby": "Raw Ruby"
+  "item.honeybar.raw_ruby": "Raw Ruby",
+
+  "itemgroup.ruby": "Ruby Group"
 }
