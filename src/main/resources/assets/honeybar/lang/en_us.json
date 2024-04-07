@@ -2,5 +2,8 @@
   "item.honeybar.ruby": "Ruby",
   "item.honeybar.raw_ruby": "Raw Ruby",
 
+  "block.honeybar.ruby_block": "Block of Ruby",
+  "block.honeybar.raw_ruby_block": "Block of Raw Ruby",
+
   "itemgroup.ruby": "Ruby Group"
 }

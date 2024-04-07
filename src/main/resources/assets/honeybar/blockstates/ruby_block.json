@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "honeybar:block/ruby_block"
+    }
+  }
+}
